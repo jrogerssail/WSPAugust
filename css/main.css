@@ -91,5 +91,11 @@ padding: 0 20px;
 	color: #000;
 	font:1.125em/2"Archivo Black", sans-serif;
 	text-align: left;
-	text-shadow: 2px 2px 2px #000;
+	text-shadow: 2px 2px 2px #fff;
+	}
+	
+	h4{
+	color: #c1d82f;
+	font:1.125em/2"Archivo Black", sans-serif;
+	text-align: left;
 	}
