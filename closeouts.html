@@ -18,67 +18,81 @@
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/maintryt.css">
+	<link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
 
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	
-</head>
-<body>
+</head">
+<div id="wrap">
+<body class="bodyshell">
+<div id="wrap">
+<section>
 <div class="container">
-	<section class="grid_12">
+	<section class="grid_12 navarea">
 		<section class="grid_12">
-			<img class="grid_3 alpha" src="images/logo.jpg" title="GoodSports Logo">
-			<nav class="grid_8 prefix_1 omega">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="sport.html">Sport</a></li>
-				<li><a href="officials.html">Officiating</a></li>
-				<li><a href="apparel.html">Apparel</a></li>
-				<li><a href="closeouts.html">Closeouts</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
+		<div class="grid_3 alpha blur logolink">
+		    <a href="index.html"><img src="images/logo.jpg" border="0"></a>
+		  </div>
+			<nav class="grid_8 prefix_1 navlinks omega">
+				<li id="home"><a href="index.html">Home</a></li>
+				<li id="sport"><a href="sport.html">Sport</a></li>
+				<li id="officials"><a href="officials.html">Officiating</a></li>
+				<li id="apparel"><a href="apparel.html">Apparel</a></li>
+				<li id="closeouts"><a href="closeouts.html">Closeouts</a></li>
+				<li id="contact"><a href="contact.html">Contact Us</a></li>
 			</nav>
 		</section>
 		<section class="grid_12">
-			<aside class="grid_3 alpha">
-				<li><a href="#">Equipment</a></li>
-				<li><a href="#">Apparel</a></li>
-				<li><a href="#">Youth Apparel</a></li>
-				<li><a href="#">Training Aids</a></li>
-				<li><a href="#">High Schools</a></li>
-				<li><a href="#">Sizing Chart</a></li>
-			</aside>
-			<section class="grid_8 prefix_1 omega">
-			<img class="grid_8 prefix_1" src="images/closeout.jpg" title="New Items">
-			</section>
-		</section>
-		<p class="grid_12">
-		<h2>Several Items to Choose From!</h2>
-		we have something for everyone!
-		</p>
-		<section>
-			<a href="#"><img class="grid_3" src="images/closeout_football.jpg" title="Football"></a>
-			<a href="#"><img class="grid_3 prefix_1" src="images/closeout_baseball.jpg" title="Baseball"></a>
-			<a href="#"><img class="grid_3 prefix_1" src="images/closeout_mlb.jpg" title="MLB"></a>
+		<aside class="grid_3 aside alpha">
+			<h2>Quick Links</h2>
+			<section class="clearfix"</section>
+			<li id="homes"><a href="#">Apparel</a></li>
+			<li id="sports"><a href="#">Equipment</a></li>
+			<li id="officialss"><a href="#">Footwear</a></li>
+			<li id="apparels"><a href="#">High Schools</a></li>
+			<li id="closeoutss"><a href="#">Training Aids</a></li>
+			<li id="contacts"><a href="#">Youth Apparel</a></li>
+		</aside>
+			<img class="grid_8 graph omega" src="images/closeout.jpg" title="New Items">
 		</section>
 		<section class="grid_12">
-		<p>
-		<h2>Closeout Items:</h2>
-		We have some very nice items in our closeout section. Some items are open box, some are discontinued items and some are just left over and taking up space in our 4000sq ft warehouse. So, come mix and match and find a deal! We are open to negotiations!
-		</p>
+			<section class="grid_12 mainblockap">
+			<p>
+			<h1>Closeout Items!</h1>
+			<p class="maintext grid_7 prefix_1">We have some very nice items in our closeout section. Some items are open box, some are discontinued items and some are just left over and taking up space in our 4000sq ft warehouse. So, come mix and match and find a deal! We are open to negotiations!
+			</p>
+			<section class="clearfix"></section>
+			<table summary="Rogers Family Contact">
+				<tr>
+					<th><a href=""><img class="grid_3" src="images/closeout_football.jpg" title="Closeouts"></th>
+					<th><a href=""><img class="grid_3" src="images/closeout_baseball.jpg" title="Closeouts"></th>
+					<th><a href=""><img class="grid_3" src="images/closeout_mlb.jpg" title="Closeouts"></th>
+				</tr>
+					<tr class="odd_row">
+					<td><a href=""><img class="grid_3" src="images/closeout_footwear.jpg" title="Closeouts"></td>
+					<td><a href=""><img class="grid_3" src="images/closeout_equipment.jpg" title="Closeouts"></td>
+					<td><a href=""><img class="grid_3" src="images/closeout_train.jpg" title="Closeouts"></td>
+				</tr>
+				</table>
+			</section>
 		</section>
-		<footer class="grid_12">
-			<section>
-			<p class="grid_4 alpha">Copyright &copy 2013 Good Sports Inc.</p>
-			<section class="grid_6 prefix_1 omega">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="sport.html">Sport</a></li>
-			<li><a href="officials.html">Officiating</a></li>
-			<li><a href="apparel.html">Apparel</a></li>
-			<li><a href="closeouts.html">Closeouts</a></li>
-			<li><a href="contact.html">Contact Us</a></li>
+		<footer class="grid_12 footerbox">
+			<section >
+			<p class="grid_4 alpha copyright">Copyright &copy 2013 Good Sports Inc.</p>
+			<section class="grid_6 prefix_1 footlinks omega">
+			<li id="homef"><a href="index.html">Home</a></li>
+			<li id="sportf"><a href="sport.html">Sport</a></li>
+			<li id="officialsf"><a href="officials.html">Officiating</a></li>
+			<li id="apparelf"><a href="apparel.html">Apparel</a></li>
+			<li id="closeoutsf"><a href="closeouts.html">Closeouts</a></li>
+			<li id="contactf"><a href="contact.html">Contact Us</a></li>
 			</section>
 		</footer>
-	</section>
 </div>
+</section>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
+</div>
 </body>
 </html>

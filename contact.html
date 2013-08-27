@@ -18,61 +18,68 @@
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/maintryt.css">
+	<link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
 
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	
-</head>
-<body>
+</head">
+<div id="wrap">
+<body class="bodyshell">
+<div id="wrap">
+<section>
 <div class="container">
-	<section class="grid_12">
+	<section class="grid_12 navarea">
 		<section class="grid_12">
-			<img class="grid_3 alpha" src="images/logo.jpg" title="GoodSports Logo">
-			<nav class="grid_8 prefix_1 omega">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="sport.html">Sport</a></li>
-				<li><a href="officials.html">Officiating</a></li>
-				<li><a href="apparel.html">Apparel</a></li>
-				<li><a href="closeouts.html">Closeouts</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
+		<div class="grid_3 alpha blur logolink">
+		    <a href="index.html"><img src="images/logo.jpg" border="0"></a>
+		  </div>
+			<nav class="grid_8 prefix_1 navlinks omega">
+				<li id="home"><a href="index.html">Home</a></li>
+				<li id="sport"><a href="sport.html">Sport</a></li>
+				<li id="officials"><a href="officials.html">Officiating</a></li>
+				<li id="apparel"><a href="apparel.html">Apparel</a></li>
+				<li id="closeouts"><a href="closeouts.html">Closeouts</a></li>
+				<li id="contact"><a href="contact.html">Contact Us</a></li>
 			</nav>
 		</section>
 		<section class="grid_12">
-			<aside class="grid_3 alpha">
-				<li><a href="#">FAQ</a></li>
-				<li><a href="#">Return Policy</a></li>
-				<li><a href="#">Marketing</a></li>
-				<li><a href="#">Billing</a></li>
-				<li><a href="#">Shipping Info</a></li>
-				<li><a href="#">Schools</a></li>
-			</aside>
-			<section class="grid_8 prefix_1 omega">
+		<aside class="grid_3 aside alpha">
+			<h2>Quick Links</h2>
+			<section class="clearfix"</section>
+			<li id="homes"><a href="#">Apparel</a></li>
+			<li id="sports"><a href="#">Equipment</a></li>
+			<li id="officialss"><a href="#">Footwear</a></li>
+			<li id="apparels"><a href="#">High Schools</a></li>
+			<li id="closeoutss"><a href="#">Training Aids</a></li>
+			<li id="contacts"><a href="#">Youth Apparel</a></li>
+		</aside>
+			<img class="grid_8 graph omega" src="images/service.jpg" title="New Items">
+		</section>
+		<section class="grid_12">
+			<section class="grid_12 mainblockcp">
 			<form method="get" action="mailto:jrogers@jrocadesign.com">
 					<div>
-						<label for="name_first">First Name</label>
-						<input type="text" name="name_first" id="name_first">
+						<label class="contact grid_2 prefix_1" for="name_first">First Name</label>
+						<input class="grid_2 prefix_1" type="text" name="name_first" id="name_first">
 					</div>
-					
 					<div>
-						<label for="name_last">Last Name</label>
+						<label class="contact grid_2 prefix_1" for="name_last">Last Name</label>
 						<input type="text" name="name_last" id="name_last">
 					</div>
-					
 					<div>
-						<label for="phone">Phone Number</label>
+						<label class="contact grid_2 prefix_1" for="phone">Phone Number</label>
 						<input type="text" name="phone" id="phone">
 					</div>
-					
 					<div>
-						<label for="email">eMail Address</label>
+						<label class="contact grid_2 prefix_1" for="email">eMail Address</label>
 						<input type="text" name="email" id="email">
 					</div>
-					
 					<div>
-						<label for="regarding">Regarding</label>
+						<label class="contact grid_2 prefix_1" for="regarding">Regarding</label>
 					</div>
-					
 					<div>
-						<select name="regarding" id="regarding">
+						<select class="contact grid_2 prefix_1" name="regarding" id="regarding">
 						<option>General Inquiry</option>
 						<option>Suggestions</option>
 						<option>Site Error</option>
@@ -80,43 +87,35 @@
 						<option>Press</option>
 						</select>
 					</div>
-					
 					<div>
-						<label for="message">Message</label>
-						<textarea rows="15" cols="50" name="message" id="message"></textarea>
+						<label class="contact grid_2 prefix_1" for="message">Message</label>
+						<textarea rows="15" cols="30" name="message" id="message"></textarea>
 					</div>
-					
 					<div>
-						<input type="checkbox" name="contact_phone" id="contact_phone"/>
+						<input class="contact" type="checkbox" name="contact_phone" id="contact_phone"/>
 						<p>I prefer to be contacted by phone.<p>
 					</div>
-					
 					<div>
-						<button type="submit" name="submit" class="button">Send Message</button>
+						<button class="button" type="submit" name="submit" class="button"></button>
 					</div>
-			</form>			</section>
+			</form>
 		</section>
-		<section class="grid_12">
-		<p>
-		<h2>Thank you for contacting GoodSports!</h2>
-		We value your input. Please fill out the form and someone will get back to you within 24hrs.
-		</p>
-		</section>
-		<footer class="grid_12">
-			<section>
-			<p class="grid_4 alpha">Copyright &copy 2013 Good Sports Inc.</p>
-			<section class="grid_6 prefix_1 omega">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="sport.html">Sport</a></li>
-			<li><a href="officials.html">Officiating</a></li>
-			<li><a href="apparel.html">Apparel</a></li>
-			<li><a href="closeouts.html">Closeouts</a></li>
-			<li><a href="contact.html">Contact Us</a></li>
+		<footer class="grid_12 footerbox">
+			<section >
+			<p class="grid_4 alpha copyright">Copyright &copy 2013 Good Sports Inc.</p>
+			<section class="grid_6 prefix_1 footlinks omega">
+			<li id="homef"><a href="index.html">Home</a></li>
+			<li id="sportf"><a href="sport.html">Sport</a></li>
+			<li id="officialsf"><a href="officials.html">Officiating</a></li>
+			<li id="apparelf"><a href="apparel.html">Apparel</a></li>
+			<li id="closeoutsf"><a href="closeouts.html">Closeouts</a></li>
+			<li id="contactf"><a href="contact.html">Contact Us</a></li>
 			</section>
 		</footer>
-	</section>
 </div>
+</section>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
+</div>
 </body>
 </html>
