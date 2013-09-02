@@ -198,7 +198,6 @@ padding: 0px 10px;
 	font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
 	color: #fff;
 	text-decoration:underline;
-	padding: 10px;
 	border:none;
 	}
 	a:active{
@@ -221,16 +220,14 @@ padding: 0px 10px;
 		}
 		
 	.navlinks a:visited{
-		color: #d7fb00;
+		color: #01bffb;
 		} 
 		
 	.navlinks a:hover{
 		font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
-		color: #fff;
+		color: #00526c;
 		text-decoration:underline;
-		background: #00526c url("../images/navback.gif") repeat-x;  
-		background-size: 100%;
-		padding: 10px;
+		padding: 0px;
 		}
 		
 	.navlinks a:active{
@@ -247,107 +244,102 @@ padding: 0px 10px;
 		}
 	
 	#logolink a:link{
+			font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
+			color: #00526c;
+			text-decoration:none;
+			}
+			
+		#logolink a:visited{
+			color: #d7fb00;
+			} 
+		#logolink a:hover{
+			font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
+			color: #fff;
+			text-decoration:underline;
+			}
+		#logolink a:active{
+			color: #01bffb;
+			}
+			
+		#logolink ol{
+			list-style-type: circle;
+			color: #d7fb00;
+			}
+		
+		#logolink ul{
+			list-style-type: none;
+			}
+		
+		
+		
+	.aside a:link{
+			font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
+			color: #d7fb00;
+			text-decoration:none;
+			list-style-type: none;
+			}
+			
+	.aside a:visited{
+			color: #fff;
+			}
+			 
+	.aside a:hover{
+			font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
+			color: #fff;
+			background: #; /* Old browsers */
+			}
+	.aside a:active{
+			color: #01bffb;
+			}
+			
+	.aside ol{
+			list-style-type: none;
+			color: #d7fb00;
+			}
+		
+	.aside ul{
+			list-style-type: none;
+			}
+			
+			
+	.footlinks a:link{
 		font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
 		color: #00526c;
 		text-decoration:none;
 		}
 		
-	#logolink a:visited{
-		color: #d7fb00;
+	.footlinks a:visited{
+		color: #01bffb;
 		} 
-	#logolink a:hover{
-		font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
+		
+	.footlinks a:hover{
 		color: #fff;
 		text-decoration:underline;
-		padding: 10px;
-		}
-	#logolink a:active{
-		color: #01bffb;
+		background:url(../images/navback.gif) repeat-x;
+		/* background: #00526c url("../images/navback.gif") repeat-x; */
 		}
 		
-	#logolink ol{
+	.footlinks a:active{
+		color: #fff;
+		}
+		
+	.footlinks ol{
 		list-style-type: circle;
 		color: #d7fb00;
 		}
 	
-	#logolink ul{
-		list-style-type: none;
-		}
-	
-	
-	
-	.aside a:link{
-		font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
-		color: #d7fb00;
-		text-decoration:none;
+	.footlinks ul{
 		list-style-type: none;
 		}
 		
-	.aside a:visited{
-		color: #fff;
-		}
-		 
-	.aside a:hover{
-		font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
-		color: #cbed00;
-		background: #cbed00; /* Old browsers */
-		background: -moz-linear-gradient(top, #cbed00 0%, #ffffff 50%, #d7fb00 100%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cbed00), color-stop(50%,#ffffff), color-stop(100%,#d7fb00)); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(top, #cbed00 0%,#ffffff 50%,#d7fb00 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(top, #cbed00 0%,#ffffff 50%,#d7fb00 100%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(top, #cbed00 0%,#ffffff 50%,#d7fb00 100%); /* IE10+ */
-		background: linear-gradient(to bottom, #cbed00 0%,#ffffff 50%,#d7fb00 100%); /* W3C */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbed00', endColorstr='#d7fb00',GradientType=0 ); /* IE6-9 */  
-		border: 2px solid #00526c;
-		border-radius: 5px;
-		padding: 10px;
-		}
-	.aside a:active{
-		color: #01bffb;
-		}
+.header{
+color: #d7fb00;
+font:1em/1.75"Berkshire Swash", cursive;
+text-align: left;
+text-shadow: 2px 2px 8px #007da4;
+clear: right;
+}
 		
-.aside ol{
-		list-style-type: none;
-		color: #d7fb00;
-		}
-	
-.aside ul{
-		list-style-type: none;
-		}
-		
-		
-.footlinks a:link{
-	font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
-	color: #00526c;
-	text-decoration:none;
-	}
-	
-.footlinks a:visited{
-	color: #d7fb00;
-	} 
-	
-.footlinks a:hover{
-	font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
-	color: #fff;
-	text-decoration:underline;
-	background: #00526c url("../images/navback.gif") repeat-x;  
-	background-size: 100%;
-	padding: 10px;
-	}
-	
-.footlinks a:active{
-	color: #01bffb;
-	}
-	
-.footlinks ol{
-	list-style-type: circle;
-	color: #d7fb00;
-	}
-
-.footlinks ul{
-	list-style-type: none;
-	}
-	
 .button {
     background:url(../images/submit.gif) no-repeat;
     cursor:pointer;
@@ -388,7 +380,7 @@ input + input {
 #base, #bask, #fast, #foot, #lac, #oth{
 border: 2px solid #d7fb00;
 display: block;
-margin: 0 3.6041666% 2.6041666%;
+margin: 0 3.6041666% 3.6041666%;
 box-shadow: 0px 5px 5px #01bffb;
 float: left;
 }
@@ -453,30 +445,33 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c007da4', e
 	font-weight: bold;
 	}
 	
-	.contact{
-	font:18px/1"Helvetica Neue", Arial, Helvetica, sans-serif;
-	text-shadow: 1px 1px 1px #007da4;
-	text-align: left;
-	color: #d7fb00;
-	margin: 0px 10px;
+.contact{
+font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
+text-shadow: 1px 1px 1px #007da4;
+text-align: left;
+color: #d7fb00;
+margin: 0px 20px;
+float: left;
+}
+	
+input:focus{
+background: #d7fb00;
+}
+	
+input{
+width:200px;
+display: inline;
+border: 1px solid #00526c;
+border-radius: 5px;
+height: 25px;
+-webkit-box-shadow: 20px 20px 8px #00526c;
+-moz-box-shadow: 20px 0px 8px #00526c);
+box-shadow: 0px 10px 8px #00526c;
+margin: 0px 30px 30px;
+clear: left;
 	}
 	
-	input:focus{
-	background: #d7fb00;
-	}
-	
-	input{
-	width:200px;
-	display:inline;
-	border: 1px solid #00526c;
-	border-radius: 5px;
-	height: 25px;
-	-webkit-box-shadow: 20px 20px 8px #00526c;
-	-moz-box-shadow: 20px 0px 8px #00526c);
-	box-shadow: 0px 10px 8px #00526c;
-	margin: 0px auto;
-	padding: 0px;
-	}
+
 		
 	
 /* Navigation */
@@ -524,3 +519,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c007da4', e
 	font:1.125em/2"Archivo Black", sans-serif;
 	text-align: left;
 	}
+
+/* Mobile Landscape size to Tablet Portrait (devices and browsers).................. */
+	@media only screen and (min-width: 480px)and(max-width: 767px){
+	
+	body{
+	min-width:480px;
+	max-width: 767px;
+	background: #000;
+	}
+
+/* Media Queries up to 479............................................... */
+
+/* Mobile Portrait size to Mobile Landscape size (devices and browsers) */
+@media only screen and (max-width: 479px){
+	
+body{
+max-width: 479px;
+}
+
+h3{
+	color: #000;
+	font:0.5em/1"Archivo Black", sans-serif;
+	}
+	
+.header{
+color: #01bffb;
+font:.75em/1.5"Berkshire Swash", cursive;
+

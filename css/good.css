@@ -52,13 +52,19 @@ padding: 0px 50px;
 overflow: hidden;
 }
 
+.mainblocksp{
+border: 2px solid #d7fb00;
+border-radius: 5px;
+margin: 0px auto;
+}
+
 .footerbox{
 	width: 970px;
 	height: 30px;
 	background-color: #cbed00;
 	border: 2px solid #00526c;
 	border-radius: 5px;
-	margin: 20px 10px;
+	margin: 20px 0px;
 	padding: 0px;
 }
 
@@ -87,14 +93,14 @@ float: left;
 
 #homef{
 padding: 1.2654%;
-margin-left: 1.6497175%;
+margin-left: .6497175%;
 float: left;
 }
 
 #sportf, #officialsf, #apparelf, #closeoutsf, #contactf{
 color: #00526c;
 padding: 1.2654%;
-margin-left: 1.6497175%;
+margin-left: 0.6497175%;
 float: left;
 }
 
@@ -145,170 +151,174 @@ padding: 0px 10px;
 }
 
 
-.targetp {
-	margin: 2% 0%;
-	line-height: 1.3em;
-}
-
 /* links */
 
 	a:link{
-	font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
-	color: #00526c;
-	text-decoration:none;
-	}
-	
-	a:visited{
-	color: #d7fb00;
-	} 
-	a:hover{
-	font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
-	color: #fff;
-	text-decoration:underline;
-	border:none;
-	}
-	a:active{
-	color: #01bffb;
-	}
-	
-	ol{
-	list-style-type: circle;
-	color: #d7fb00;
-	}
-
-	ul{
-	list-style-type: none;
-	}
-	
-	.navlinks a:link{
 		font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
 		color: #00526c;
 		text-decoration:none;
 		}
 		
-	.navlinks a:visited{
+		a:visited{
 		color: #d7fb00;
-		} 
+		}
 		
-	.navlinks a:hover{
+		a:hover{
 		font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
 		color: #fff;
 		text-decoration:underline;
-		background: #00526c url("../images/navback.gif") repeat-x;  
-		background-size: 100%;
+		border:none;
 		}
-		
-	.navlinks a:active{
+		a:active{
 		color: #01bffb;
 		}
 		
-	.navlinks ol{
+		ol{
 		list-style-type: circle;
 		color: #d7fb00;
 		}
 	
-	.navlinks ul{
-		list-style-type: none;
-		}
-	
-	#logolink a:link{
-		font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
-		color: #00526c;
-		text-decoration:none;
-		}
-		
-	#logolink a:visited{
-		color: #d7fb00;
-		} 
-	#logolink a:hover{
-		font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
-		color: #fff;
-		text-decoration:underline;
-		}
-	#logolink a:active{
-		color: #01bffb;
-		}
-		
-	#logolink ol{
-		list-style-type: circle;
-		color: #d7fb00;
-		}
-	
-	#logolink ul{
-		list-style-type: none;
-		}
-	
-	
-	
-.aside a:link{
-		font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
-		color: #d7fb00;
-		text-decoration:none;
+		ul{
 		list-style-type: none;
 		}
 		
-.aside a:visited{
-		color: #fff;
-		}
-		 
-.aside a:hover{
-		font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
-		color: #fff;
-		background: #; /* Old browsers */
-		}
-.aside a:active{
-		color: #01bffb;
-		}
+		.navlinks a:link{
+			font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
+			color: #00526c;
+			text-decoration:none;
+			}
+			
+		.navlinks a:visited{
+			color: #d7fb00;
+			} 
+			
+		.navlinks a:hover{
+			font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
+			color: #fff;
+			text-decoration:underline;
+			background: url("../images/navback.gif") repeat-x;  
+			background-size: 100%;
+			padding: 10px;
+			}
+			
+		.navlinks a:active{
+			color: #01bffb;
+			}
+			
+		.navlinks ol{
+			list-style-type: circle;
+			color: #d7fb00;
+			}
 		
-.aside ol{
-		list-style-type: none;
-		color: #d7fb00;
-		}
-	
-.aside ul{
-		list-style-type: none;
-		}
+		.navlinks ul{
+			list-style-type: none;
+			}
 		
+		#logolink a:link{
+				font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
+				color: #00526c;
+				text-decoration:none;
+				}
+				
+			#logolink a:visited{
+				color: #d7fb00;
+				} 
+			#logolink a:hover{
+				font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
+				color: #fff;
+				text-decoration:underline;
+				}
+			#logolink a:active{
+				color: #01bffb;
+				}
+				
+			#logolink ol{
+				list-style-type: circle;
+				color: #d7fb00;
+				}
+			
+			#logolink ul{
+				list-style-type: none;
+				}
+			
+			
+			
+		.aside a:link{
+				font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
+				color: #d7fb00;
+				text-decoration:none;
+				list-style-type: none;
+				}
+				
+		.aside a:visited{
+				color: #fff;
+				}
+				 
+		.aside a:hover{
+				font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
+				color: #fff;
+				background: #; /* Old browsers */
+				}
+		.aside a:active{
+				color: #01bffb;
+				}
+				
+		.aside ol{
+				list-style-type: none;
+				color: #d7fb00;
+				}
+			
+		.aside ul{
+				list-style-type: none;
+				}
+				
+				
+		.footlinks a:link{
+			font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
+			color: #00526c;
+			text-decoration:none;
+			}
+			
+		.footlinks a:visited{
+			color: #01bffb;
+			} 
+			
+		.footlinks a:hover{
+			color: #fff;
+			text-decoration:underline;
+			background:url(../images/navback.gif) repeat-x;
+			/* background: #00526c url("../images/navback.gif") repeat-x; */
+			}
+			
+		.footlinks a:active{
+			color: #fff;
+			}
+			
+		.footlinks ol{
+			list-style-type: circle;
+			color: #d7fb00;
+			}
 		
-.footlinks a:link{
-	font:1em/1"Helvetica Neue", Arial, Helvetica, sans-serif;
-	color: #00526c;
-	text-decoration:none;
-	}
-	
-.footlinks a:visited{
-	color: #d7fb00;
-	} 
-	
-.footlinks a:hover{
-	color: #fff;
-	text-decoration:underline;
-	background:url(../images/navback.gif) repeat-x;
-	/* background: #00526c url("../images/navback.gif") repeat-x; */
-	}
-	
-.footlinks a:active{
-	color: #fff;
-	}
-	
-.footlinks ol{
-	list-style-type: circle;
-	color: #d7fb00;
-	}
+		.footlinks ul{
+			list-style-type: none;
+			}
 
-.footlinks ul{
-	list-style-type: none;
-	}
-		
-#base, #bask, #fast, #foot #lac #oth{
-border: 3px solid #000;
+
+#base, #bask, #fast, #foot, #lac, #oth{
+border: 2px solid #d7fb00;
 display: block;
-margin: 0 2.6041666% 2.6041666%;
-width: 100%;
-height: 165px;
+margin: 0px;
+box-shadow: 0px 5px 5px #01bffb;
 float: left;
 }
-	
+
+#badg, #russ, #spee, #rawl, #mizu, #maje{
+border: 2px solid #d7fb00;
+display: block;
+margin: 0 3.6041666% 2.6041666%;
+box-shadow: 0px 5px 5px #01bffb;
+float: left;
+}
 	
 /* Title */
 
@@ -320,6 +330,53 @@ font-weight: bold;
 font-weight: bold;
 color: #fff;
 font:18px/1"Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.button {
+    background:url(../images/submit.gif) no-repeat;
+    cursor:pointer;
+    width: 200px;
+    height: 100px;
+    border: none;
+}
+
+table{
+width:970
+text-align: left;
+border-collapse: collapse;
+border: 1px solid #00526c;
+margin: 20px auto;
+}
+
+.even_row{
+background-color: #211f23;
+margin: 0px 40px;
+}
+/*
+.odd_row{
+background: -moz-linear-gradient(top, rgba(0,125,164,0.55) 0%, rgba(255,255,255,0.78) 50%, rgba(0,125,164,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,125,164,0.55)), color-stop(50%,rgba(255,255,255,0.78)), color-stop(100%,rgba(0,125,164,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(0,125,164,0.55) 0%,rgba(255,255,255,0.78) 50%,rgba(0,125,164,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(0,125,164,0.55) 0%,rgba(255,255,255,0.78) 50%,rgba(0,125,164,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(0,125,164,0.55) 0%,rgba(255,255,255,0.78) 50%,rgba(0,125,164,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(0,125,164,0.55) 0%,rgba(255,255,255,0.78) 50%,rgba(0,125,164,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c007da4', endColorstr='#007da4',GradientType=0 ); /* IE6-9 */
+margin: ;
+}
+*/
+
+td{
+text-align: center;
+border: 1px solid #00526c;
+padding: 0.8em;
+
+}
+
+th{
+color: #d7fb00;
+font:1em/1.75"Berkshire Swash", cursive;
+text-align: left;
+text-shadow: 1px 0px 8px #01bffb;
 }
 	
 	
@@ -354,13 +411,24 @@ text-shadow: 1px 1px 1px #01bffb;
 margin: 1px 0px;
 padding: 0px;
 }
+/*
+h3{
+color: #d7fb00;
+font:1.5em/1.75"Berkshire Swash", cursive;
+text-align: left;
+text-shadow: 1px 1px 1px #007da4;
+clear: right;
+}
+*/
 
+/*
 h3{
 color: #000;
 font:1.125em/2"Archivo Black", sans-serif;
 text-align: left;
 text-shadow: 2px 2px 2px #fff;
 }
+*/
 	
 h4{
 color: #c1d82f;
